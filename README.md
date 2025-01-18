@@ -44,7 +44,7 @@ git clone https://github.com/<你的用户名>/chinese_resume.git
 
 其他具体使用可参考给出的范例，都是极其简单易懂的宏，建议先看看 [How to write a LaTeX class file and design your own CV (Part 1) - ShareLaTeX](https://www.sharelatex.com/blog/2011/03/27/how-to-write-a-latex-class-file-and-design-your-own-cv.html) 和 [How to write a LaTeX class file and design your own CV (Part 2) - ShareLaTeX](https://www.sharelatex.com/blog/2013/06/28/how-to-write-a-latex-class-file-and-design-your-own-cv.html) 了解下该模板的简单背景，下面就一些新定义的宏做简要介绍。
 
-### 宏
+## 宏
 
 - `\name`: 姓名
 - `\FancyBadge`: 用于表示学校的国际排名，如Times、QS和软科等
@@ -57,7 +57,7 @@ git clone https://github.com/<你的用户名>/chinese_resume.git
 - `\itemize`: 清单列表，简历中应用最广
 - `\enumerate`: 枚举列表，数字标号
 
-### FontAwesome
+## FontAwesome
 
 首先在 [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/) 上选中自己想使用的图标(暂不支持 alias)，然后在 [fontawesome.sty](https://github.com/billryan/resume/blob/zh_CN/fontawesome.sty) 中找到相应的宏, 将其作为普通文本一样使用。
 
