@@ -1,0 +1,44 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+% 用于测试的tex文件
+
+\documentclass[12pt]{article}
+
+\usepackage[UTF8]{ctex}    % 中文支持
+\usepackage{geometry}
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+%-----------------------------
+% (1) 定义 \datedsubsection 命令 (一个简化版)
+%-----------------------------
+\newcommand{\datedsubsection}[2]{
+  \noindent
+  {\bfseries #1} \hfill #2
+  \par
+}
+
+%-----------------------------
+% (2) 定义 \FancyBadge 宏
+%-----------------------------
+\usepackage{tikz}
+\newcommand{\FancyBadge}[2]{%
+  \tikz[baseline=(txt.base)]{
+    \node[
+      rounded corners=3pt,
+      fill=#1,
+      text=white,
+      inner sep=2pt,
+      font=\bfseries
+    ] (txt) {#2};
+  }%
+}
+
+\begin{document}
+
+\section{教育背景}
+
+% 在同一行写 \FancyBadge
+\datedsubsection{\textbf{澳门科技大学}, 智能科学与系统, \textit{工学博士}~\FancyBadge{teal}{QS 464}}{2021.9 - 2024.6}
+
+\end{document}
