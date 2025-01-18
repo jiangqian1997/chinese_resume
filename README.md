@@ -38,6 +38,7 @@
 在你的终端中执行以下命令（将 `<你的用户名>` 替换为你的 GitHub 用户名）：
 ```bash
 git clone https://github.com/<你的用户名>/chinese_resume.git
+```
 
 如果系统已确定安装有 Adobe 的四套中文字型，在文档的开始处使用包`zh_CN-Adobefonts_internal`, 如果没有安装则使用包`zh_CN-Adobefonts_external`, 在 ShareLaTeX 上编译需要使用包`zh_CN-Adobefonts_external`.
 
