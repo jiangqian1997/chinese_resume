@@ -1,6 +1,6 @@
 # 个人简历
 
-本项目为个人简历 Latex 源码存放，同时包含效果图呈现，简历入口为 resume-zh_CN.tex， 修改自项目 [academic_cv](https://github.com/jiangqian1997/academic_cv)，若不想本地手动编译可以将该源码打包至 zip 直接上传至 Overleaf 进行在线编译与预览。
+本项目为个人简历 Latex 源码存放，同时包含效果图呈现，简历入口为 resume-zh_CN.tex， 修改自项目 [chinese_resume](https://github.com/jiangqian1997/chinese_resume)，若不想本地手动编译可以将该源码打包至 zip 直接上传至 Overleaf 进行在线编译与预览。
 
 ## 项目说明
 
@@ -27,7 +27,7 @@
 包含 Adobe 的宋楷黑仿四套中文字体，体积较大，可直接下载压缩包文件，[下载地址](https://github.com/jiangqian1997/chinese_resume/releases)。
 
 ```
-git clone https://github.com/jiangqian1997/academic_cv.git
+git clone https://github.com/jiangqian1997/chinese_resume.git
 ```
 
 如果系统已确定安装有 Adobe 的四套中文字型，在文档的开始处使用包`zh_CN-Adobefonts_internal`, 如果没有安装则使用包`zh_CN-Adobefonts_external`, 在 ShareLaTeX 上编译需要使用包`zh_CN-Adobefonts_external`.
