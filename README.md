@@ -26,7 +26,6 @@
 
 包含 Adobe 的宋楷黑仿四套中文字体，体积较大，可直接下载压缩包文件，[下载地址](https://github.com/jiangqian1997/chinese_resume/releases)。
 
-```
 ## 如何 Fork 本项目到本地并建立连接
 
 如果你想 Fork 本项目到本地并保持与原始仓库的同步，可以按照以下步骤操作：
@@ -39,8 +38,6 @@
 在你的终端中执行以下命令（将 `<你的用户名>` 替换为你的 GitHub 用户名）：
 ```bash
 git clone https://github.com/<你的用户名>/chinese_resume.git
-
-```
 
 如果系统已确定安装有 Adobe 的四套中文字型，在文档的开始处使用包`zh_CN-Adobefonts_internal`, 如果没有安装则使用包`zh_CN-Adobefonts_external`, 在 ShareLaTeX 上编译需要使用包`zh_CN-Adobefonts_external`.
 
