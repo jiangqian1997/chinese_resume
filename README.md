@@ -24,7 +24,7 @@
 1. ShareLaTeX 在线编译
 2. 使用较新的 \LaTeX\ 发行版在本地计算机编译
 
-包含 Adobe 的宋楷黑仿四套中文字体，体积较大，可直接下载压缩包文件，[下载地址](https://github.com/jiangqian1997/academic_cv/releases)。
+包含 Adobe 的宋楷黑仿四套中文字体，体积较大，可直接下载压缩包文件，[下载地址](https://github.com/jiangqian1997/chinese_resume/releases)。
 
 ```
 git clone https://github.com/jiangqian1997/academic_cv.git
